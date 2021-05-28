@@ -19,11 +19,8 @@ namespace TechTest
             {
                 result += "Plong";
             }
-            if(x % 3 != 0 && x % 5 != 0 && x % 7 != 0)
-            {
-                return x.ToString();
-            }
-            return result;
+            
+            return result == ""?x.ToString():result;
         }
     }
 }
