@@ -6,9 +6,9 @@ The objective of this small project is to create a program that takes in numbers
 
 ### Code Example
 
-![image](https://user-images.githubusercontent.com/64920672/119969405-6ed71d80-bfa6-11eb-90ff-c4b05fefc082.png)
+![image](https://user-images.githubusercontent.com/64920672/119999596-d357a400-bfc9-11eb-837f-078a1933fb9b.png)
 
- Above is the code created for this project. It takes in a number, then divides the number by 3,5,7 and if the remainder is 0 concatenates a word to the "Result" empty string variable. If the number is not a factor of either 3,5 or 7 then it is converted to a string with the "ToString()" method. It has been created as a static class to remove the need of instantiating the class, allowing the user to call the method directly. 
+ Above is the code created for this project. It takes in a number, then divides the number by 3,5,7 and if the remainder is 0 concatenates a word to the "Result" empty string variable. If the number is not a factor of either 3,5 or 7 the "Result" variable would be empty the number is then converted to a string with the "ToString()" method. It has been created as a static class to remove the need of instantiating the class, allowing the user to call the method directly. 
 
 ### Test Examples
 
@@ -23,4 +23,8 @@ The tests above show functionality when dealing with numbers that have MULTIPLE 
 ![image](https://user-images.githubusercontent.com/64920672/119986204-78b74b80-bfbb-11eb-8c0f-2a6d408f9d52.png)
 
 The final test show that if the number does not have any factors then it will return the base number, done with both postive and negative versions of the number in order to test if it is capable of dealing with negative numbers.
+
+### Overview
+
+Overall the project was completed with little issue, due to the relatively simplistic logic behind the code program, with only small issues arising with refactoring code for higher quality of code via use of ternary operation to check if the string is empty. As within earlier versions used an if statement to check the number and if it has any factors of 3,5,7.   
 
