@@ -12,15 +12,15 @@ The objective of this small project is to create a program that takes in numbers
 
 ### Test Examples
 
-![image](https://user-images.githubusercontent.com/64920672/119973083-edce5500-bfaa-11eb-857f-caa85afe2a08.png)
+![image](https://user-images.githubusercontent.com/64920672/119986004-43aaf900-bfbb-11eb-91f1-c83a546610df.png)
 
 Above shows the tests done to test the individual words, i.e. if the number passed into the method ONLY has a factor of either 3,5 or 7. As shown within the "Pling" and "Plang" tests the method runs if the number entered is a negative number, this is done as an edge case to show that the functionality is prepared for this. 
 
-![image](https://user-images.githubusercontent.com/64920672/119972538-3cc7ba80-bfaa-11eb-98a1-bb606385dca7.png)
+![image](https://user-images.githubusercontent.com/64920672/119986079-545b6f00-bfbb-11eb-8e06-0932764539cf.png)
 
 The tests above show functionality when dealing with numbers that have MULTIPLE factors, with the final test showing that its possible for all words to be returned provided that the number's factors feature all three numbers.
 
-![image](https://user-images.githubusercontent.com/64920672/119972560-43eec880-bfaa-11eb-92c0-7a80f9b348d3.png)
+![image](https://user-images.githubusercontent.com/64920672/119986204-78b74b80-bfbb-11eb-8c0f-2a6d408f9d52.png)
 
 The final test show that if the number does not have any factors then it will return the base number, done with both postive and negative versions of the number in order to test if it is capable of dealing with negative numbers.
 
