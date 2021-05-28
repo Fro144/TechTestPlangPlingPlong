@@ -7,7 +7,7 @@ namespace TechTest
         public static string PlingPlangPlong(int x)
         {
             string result = "";
-            if (x %3==0)
+            if (x % 3 == 0)
             {
                 result +="Pling";
             }
