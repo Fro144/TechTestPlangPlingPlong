@@ -24,5 +24,3 @@ The tests above show functionality when dealing with numbers that have MULTIPLE 
 
 The final test show that if the number does not have any factors then it will return the base number, done with both postive and negative versions of the number in order to test if it is capable of dealing with negative numbers.
 
-
-### Overview 
